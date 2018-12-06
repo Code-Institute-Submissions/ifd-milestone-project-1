@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Holiday Planner</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/styles/main.css" type="text/css" />
+</head>
+
+<body>
+    <header class="container-fluid navbar-section">
+        <nav class="navbar navbar-light bg-light nav">
+            <a id="nav-title" class="navbar-brand uppercase" href="#">
+                Holiday Planner
+            </a>
+        </nav>
+    </header>
+    <section class="container-fluid">
+        <div class = "row header-text">
+            <h1>Your next adventure awaits!</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading uppercase">Search</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 find-header">
+                        Country:
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <select class="input-boxes" id="country">
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="findhotels" class="col-md-12 find-header">
+                        City:
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="locationField" class="col-md-12">
+                        <input id="autocomplete" class="input-boxes" placeholder="Enter a city" type="text" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="findhotels" class="col-md-12 find-header">
+                        Type:
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 radio-form">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <button id="reset-button" type="button" class="btn btn-primary" onclick="reset()">Reset</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading uppercase">Map</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-styles">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h4>About</h4>
+                        <p>This is an independant holiday search function using the GoogleMapsAPI for my Codesintitute Project</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h4>Created By</h4>
+                        <p><a href="https://github.com/SimonLaw21">Simon Law</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/maps.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHEyr91ckJ_LvtCyOxqXIqTOe9L2W0m6A&callback=initMap&libraries=places" async defer></script>
+
+</body>
+
+</html>
