@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+/*---------------------------------Header*/
+
+.header-text {
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/*---------------------------------Main Margins*/
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    margin: 0;
+}
+
+/*---------------------------------Special Padding*/
+
+.nav {
+    margin-bottom: 0px;
+    background-color: #3379b7;
+    color: #ffffff;
+    border-bottom: 1px solid #345192;
+    border-radius: 0;
+}
+
+#nav-title {
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+}
+
+.navbar-section {
+    padding: 0px;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*---------------------------------Footer*/
+
+.footer-styles {
+    background-color: #afafaf;
+    margin-top: 15px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+
+/*---------------------------------Section*/
+
+.section-heading {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/*---------------------------------Media Queries*/
+
+
+
+/*---------------------------------Map Search*/
+
+#map {
+    min-height: 500px !important;
+}
+
+
+
+/*---------------------------------Results Table*/
+
+table {
+    font-size: 15px;
+}
+

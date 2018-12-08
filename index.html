@@ -39,6 +39,20 @@
                 <div class="row">
                     <div class="col-md-12">
                         <select class="input-boxes" id="country">
+                                <option value="all" selected>All</option>
+                                <option value="au">Australia</option>
+                                <option value="br">Brazil</option>
+                                <option value="ca">Canada</option>
+                                <option value="fr">France</option>
+                                <option value="de">Germany</option>
+                                <option value="mx">Mexico</option>
+                                <option value="nz">New Zealand</option>
+                                <option value="it">Italy</option>
+                                <option value="za">South Africa</option>
+                                <option value="es">Spain</option>
+                                <option value="pt">Portugal</option>
+                                <option value="us" >U.S.A.</option>
+                                <option value="uk">United Kingdom</option>
                         </select>
                     </div>
                 </div>
@@ -59,6 +73,12 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 radio-form">
+                        <form action="">
+                            <input type="radio" name="gender" value="accomodation" id="accomodationRadio"> <span class="radio-buttons">Accomodation</span><br>
+                            <input type="radio" name="gender" value="Restaurants/Bars" id="foodRadio"> <span class="radio-buttons">Restaurants/Bars</span><br>
+                            <input type="radio" name="gender" value="Tourist Attractions" id="touristRadio"> <span class="radio-buttons">Tourist Attractions</span>
+
+                        </form>
                     </div>
                 </div>
                 <div class="row">
@@ -81,6 +101,48 @@
             </div>
         </div>
     </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 id="results-heading" class="section-heading uppercase"> </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="listing">
+                    <table id="resultsTable">
+                        <tbody id="results"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div style="display: none">
+            <div id="info-content">
+                <table>
+                    <tr id="iw-url-row" class="iw_table_row">
+                        <td id="iw-icon" class="iw_table_icon"></td>
+                        <td id="iw-url"></td>
+                    </tr>
+                    <tr id="iw-address-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Address:</td>
+                        <td id="iw-address"></td>
+                    </tr>
+                    <tr id="iw-phone-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Telephone:</td>
+                        <td id="iw-phone"></td>
+                    </tr>
+                    <tr id="iw-rating-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Rating:</td>
+                        <td id="iw-rating"></td>
+                    </tr>
+                    <tr id="iw-website-row" class="iw_table_row">
+                        <td class="iw_attribute_name">Website:</td>
+                        <td id="iw-website"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
     <footer class="footer-styles">
             <div class="container-fluid">
                 <div class="row">
@@ -91,6 +153,7 @@
                     <div class="col-md-8">
                         <h4>Created By</h4>
                         <p><a href="https://github.com/SimonLaw21">Simon Law</a></p>
+                        
                     </div>
                 </div>
             </div>
