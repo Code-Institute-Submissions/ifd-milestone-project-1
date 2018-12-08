@@ -44,7 +44,7 @@ Mobile first responsive design was used implementing bootstrap where necessary f
  
  
 
-Browser | Functions | Links | Contact | Audio | Video
+Browser |  |  |  |  | 
 --- | --- | --- | --- | --- | --- 
 **Chrome** | 
 **Firefox** | 
