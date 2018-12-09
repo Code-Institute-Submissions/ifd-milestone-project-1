@@ -51,22 +51,21 @@ Mobile first responsive design was used implementing bootstrap where necessary f
 ## Testing
 
 
- For the testing phase I used my own desktop PC with various browsers and my android smartphone.
+For the testing phase I used my own desktop PC with various browsers and my android smartphone.
  
- I tested the responsive of the design by re-sizing the browser windows on the desktop as one of my challenges I faced was ensuring that the video would maintain its aspect ratio (16:9) when being re-sized on various screens.
+I tested the responsive of the design by re-sizing the browser windows on the desktop as one of my challenges I faced was ensuring that the video would maintain its aspect ratio (16:9) when being re-sized on various screens.
  
- I used the criteria below:
- 
+I used the criteria below:
  
 
-Browser | Country Dropdown | Search Box | Map | Radio Buttons | Map Markers  
---- | --- | --- | --- | --- | --- | --- 
+Browser | Country Dropdown | Search Box | Map | Radio Buttons | Map Markers
+--- | --- | --- | --- | --- | ---
 **Chrome** | Yes | Yes | Yes | Yes | Yes | Yes 
 **Firefox** | Yes | Yes | Yes | Yes | Yes | Yes 
 **Edge** | Yes | Yes | Yes | Yes | Yes | Yes 
 **Opera** | Yes | Yes | Yes | Yes | Yes | Yes 
 **Safari** | Yes | Yes | Yes | Yes | Yes | Yes 
-**Mobile** | Yes | Yes | Yes | Yes | Yes | Yes 
+**Mobile** | Yes | Yes | Yes | Yes | Yes | Yes
 
 
 # Author
