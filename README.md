@@ -33,7 +33,7 @@ simple to use and the information provided is easily accesible. Taking stress ou
 
 For the design process I used **ADOBE XD** to create a simple wireframe mockup that can be veiwed below.
 
-
+![Maps page mockup](assets/MapsMockup.png "Maps")
 
 ## Styling
 
@@ -46,7 +46,13 @@ Mobile first responsive design was used implementing bootstrap where necessary f
 
 ## Challenges
 
+One challenge was trying to make something relatively complicated in the back-end
+still be relatively simple to use for the user in the front-end. I overcame this 
+by designing all the front-end first, then spending more time on the back-end to fit
+what had already been created in the front-end.
 
+The second challenge was the search function for the google maps API, using the
+googlemaps API documentation as credited below helped to simplify this issue.
 
 ## Testing
 
@@ -74,6 +80,8 @@ Simon Law
 
 ## Assets obtained from outside sources:
 
-GoogleMaps API
-GoogleMaps JS Search functions
-Titillum Web font from googlefonts
+- GoogleMaps API
+- GoogleMaps JS Search functions
+- Titillum Web font from googlefonts
+- Wikipedia
+- GitHub markup tutorials for ReadMe
