@@ -59,14 +59,14 @@ Mobile first responsive design was used implementing bootstrap where necessary f
  
  
 
-Browser | Country Dropdown | Search Box | Map | Radio Buttons | Map Markers | 
---- | --- | --- | --- | --- | --- | --- |
-**Chrome** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-**Firefox** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-**Edge** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-**Opera** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-**Safari** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-**Mobile** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+Browser | Country Dropdown | Search Box | Map | Radio Buttons | Map Markers  
+--- | --- | --- | --- | --- | --- | --- 
+**Chrome** | Yes | Yes | Yes | Yes | Yes | Yes 
+**Firefox** | Yes | Yes | Yes | Yes | Yes | Yes 
+**Edge** | Yes | Yes | Yes | Yes | Yes | Yes 
+**Opera** | Yes | Yes | Yes | Yes | Yes | Yes 
+**Safari** | Yes | Yes | Yes | Yes | Yes | Yes 
+**Mobile** | Yes | Yes | Yes | Yes | Yes | Yes 
 
 
 # Author
