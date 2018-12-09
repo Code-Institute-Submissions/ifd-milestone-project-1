@@ -23,7 +23,7 @@ header {
 
 .nav {
     margin-bottom: 0px;
-    background-color: #3379b7;
+    background-color: #0000ff;
     color: #ffffff;
     border-bottom: 1px solid #345192;
     border-radius: 0;
@@ -108,6 +108,7 @@ h4 {
 }
 
 #reset-button {
+    background-color: #0000ff;
     margin-bottom: 20px;
     margin-top: 90px;
 }
